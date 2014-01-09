@@ -2,6 +2,7 @@ package org.carlo.firstMaven;
 
 import static org.junit.Assert.assertTrue;
 
+import org.carlo.preandpost.Triangle;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

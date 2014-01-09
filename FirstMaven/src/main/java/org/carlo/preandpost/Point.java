@@ -1,4 +1,4 @@
-package org.carlo.firstMaven;
+package org.carlo.preandpost;
 
 public class Point {
 	

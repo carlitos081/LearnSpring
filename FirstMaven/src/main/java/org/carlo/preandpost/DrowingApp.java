@@ -1,4 +1,4 @@
-package org.carlo.firstMaven;
+package org.carlo.preandpost;
 
 
 import org.springframework.context.support.AbstractApplicationContext;

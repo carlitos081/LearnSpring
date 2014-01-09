@@ -1,4 +1,4 @@
-package org.carlo.firstMaven;
+package org.carlo.preandpost;
 
 import javax.security.auth.DestroyFailedException;
 import javax.security.auth.Destroyable;
@@ -61,13 +61,6 @@ public class Triangle implements ApplicationContextAware, BeanNameAware, Initial
 		
 	}
 
-
-	@Override
-	public String toString() {
-		return "Triangle [pointA=" + pointA + ", pointB=" + pointB
-				+ ", pointC=" + pointC + "]";
-	}
-
 	public void afterPropertiesSet() throws Exception {
 		System.out.println("Init method");
 		 
@@ -78,6 +71,11 @@ public class Triangle implements ApplicationContextAware, BeanNameAware, Initial
 		
 	}
 
+	@Override
+	public String toString() {
+		return "Triangle [pointA=" + pointA + ", pointB=" + pointB
+				+ ", pointC=" + pointC + "]";
+	}
 	
 	
 }
