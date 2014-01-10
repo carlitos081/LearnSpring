@@ -21,6 +21,7 @@ public class Triangle implements ApplicationContextAware, BeanNameAware, Initial
 	
 	
 	public void drow(){
+		
 		System.out.println("I'm a "+toString());	 
 	}
 
